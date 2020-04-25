@@ -10,7 +10,7 @@ M = int(input())
 arr = []
 for i in range(M):
     arr.append(int(input()))
-mikr = min(arr)
+mikr = max(arr)
 res = []
 for i in range(2,mikr+1):
     tmp = arr[0] % i
